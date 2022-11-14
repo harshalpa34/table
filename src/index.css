@@ -11,3 +11,62 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+
+.home{
+  display: flex;
+  padding: 50px;
+}
+
+.TodoLIst{
+  width: 50%;
+}
+
+.userlist{
+  width: 50%;
+  margin-left: 50px; 
+}
+.userlist1{
+  position: sticky;
+  top: 4rem;
+}
+.usertable{
+  border: 2px solid black;
+}
+.Heading{
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+.searchbox{
+  width: 50%;
+  height: 40px;
+  border-radius: 20px;
+  outline: none;
+  border: 1px solid black;
+  padding: 20px;
+}
+
+.table1{
+  overflow-y:scroll;
+  height: 70vh;
+  display:block;
+
+}
+::-webkit-scrollbar{
+  display: none;
+}
+
+.btn{
+  background-color: black;
+  color: wheat;
+  border: none;
+}
+.btn:hover{
+  background-color: rgb(253, 247, 247);
+  color: black;
+}
+.button{
+  width: 70px;
+  height: 40px;
+}
